@@ -101,7 +101,7 @@ public class Lambda {
         Name name = new Name();
         name.setName("dada");
         name.setID(456465);
-
+        System.out.println("dadad");
         try{
           Method method = name.getClass().getMethod("getName");
           System.out.println( method.invoke(name));
