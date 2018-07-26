@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.sakura.dao.NameDao">
+    <update id="updateName" parameterType="com.sakura.entity.Name">
+        update name set Name =#{name} where ID = #{ID}
+    </update>
+</mapper>
