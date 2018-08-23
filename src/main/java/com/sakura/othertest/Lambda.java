@@ -97,19 +97,21 @@ public class Lambda {
 //            e.printStackTrace();
 //        }
 
+//
+//        Name name = new Name();
+//        name.setName("dada");
+//        name.setID(456465);
+//        System.out.println("dadad");
+//        try{
+//          Method method = name.getClass().getMethod("getName");
+//          System.out.println( method.invoke(name));
+//        }catch (Exception e){
+//            e.printStackTrace();
+//        }
 
-        Name name = new Name();
-        name.setName("dada");
-        name.setID(456465);
-        System.out.println("dadad");
-        try{
-          Method method = name.getClass().getMethod("getName");
-          System.out.println( method.invoke(name));
-        }catch (Exception e){
-            e.printStackTrace();
-        }
-
-
+        String s = "2.00";
+        Double d = Double.valueOf(s);
+        int i = (int)(d*100);
 
     }
 }

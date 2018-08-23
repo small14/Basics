@@ -251,6 +251,7 @@
     </dependency>
 
 
+    <!--poi-->
     <dependency>
       <groupId>org.apache.poi</groupId>
       <artifactId>poi</artifactId>
@@ -266,6 +267,35 @@
       <artifactId>poi-ooxml-schemas</artifactId>
       <version>${poi.version}</version>
     </dependency>
+
+
+    <!--加密解密工具-->
+    <dependency>
+      <groupId>commons-codec</groupId>
+      <artifactId>commons-codec</artifactId>
+      <version>1.10</version>
+    </dependency>
+
+    <!--二维码生成工具-->
+    <dependency>
+      <groupId>com.google.zxing</groupId>
+      <artifactId>core</artifactId>
+      <version>3.1.0</version>
+    </dependency>
+
+    <!--jsoup-->
+    <dependency>
+      <groupId>org.jsoup</groupId>
+      <artifactId>jsoup</artifactId>
+      <version>1.11.2</version>
+    </dependency>
+
+
+    <!--<dependency>-->
+      <!--<groupId>commons-codec</groupId>-->
+      <!--<artifactId>commons-codec</artifactId>-->
+      <!--<version>1.8</version>-->
+    <!--</dependency>-->
 
   </dependencies>
 

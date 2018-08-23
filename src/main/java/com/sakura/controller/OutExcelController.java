@@ -42,7 +42,7 @@ public class OutExcelController {
         //创建保存地址
         String saveAddress = "E:\\pio\\utilTest1.xlsx";
         //调用方法生成
-        outExcelHelp.outToExcel(title,titleMap,dataList,saveAddress);
+        outExcelHelp.outToExcel(title,titleMap,dataList,saveAddress,"sakura");
         return "success";
     }
 }
